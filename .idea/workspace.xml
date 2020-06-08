@@ -77,7 +77,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591622715682</updated>
+<<<<<<< Updated upstream
       <workItem from="1591622719210" duration="1782000" />
+=======
+      <workItem from="1591622719210" duration="2515000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -96,10 +100,33 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591624546122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591624546122" />
+=======
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591624596906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591624596906" />
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1591624600470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591624600470" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1591624600469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591624600469" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1591624600468">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591624600468" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1591624600470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591624600470" />
+>>>>>>> Stashed changes
     <state x="65" y="0" key="new project wizard" timestamp="1591623282893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
