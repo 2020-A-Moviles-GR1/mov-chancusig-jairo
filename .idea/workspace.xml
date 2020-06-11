@@ -47,6 +47,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\01-kotlin" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Clases" type="JetRunConfigurationType" temporary="true">
       <module name="01-kotlin" />
@@ -98,6 +103,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
 <<<<<<< Updated upstream
@@ -105,6 +111,7 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591624546122" />
+<<<<<<< HEAD
 =======
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591624596906">
       <screen x="0" y="0" width="1366" height="728" />
@@ -127,6 +134,24 @@
     </state>
     <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591624600470" />
 >>>>>>> Stashed changes
+=======
+    <state width="661" height="138" key="GridCell.Tab.0.bottom" timestamp="1591879501255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591879501255" />
+    <state width="661" height="138" key="GridCell.Tab.0.center" timestamp="1591879501254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="138" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591879501254" />
+    <state width="661" height="138" key="GridCell.Tab.0.left" timestamp="1591879501254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="138" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591879501254" />
+    <state width="661" height="138" key="GridCell.Tab.0.right" timestamp="1591879501254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="138" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591879501254" />
+>>>>>>> Desarrollo
     <state x="65" y="0" key="new project wizard" timestamp="1591623282893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
