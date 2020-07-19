@@ -12,7 +12,7 @@ class Libro(
 
 
     override fun toString ():String{
-        return "${nombre},${autor},${genero},${anio},${precio}\n"
+        return "${nombre},${autor},${genero},${anio},${precio},${nombreBiblioteca}\n"
     }
 
 }

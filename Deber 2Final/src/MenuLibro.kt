@@ -1,3 +1,4 @@
+//MenuLibro
 
 class MenuLibro {
 
@@ -64,7 +65,7 @@ class MenuLibro {
         nombreBiblioteca = readLine()?.toString() as String
 
 
-        val controlLibro=ControlLibro()
+        val controlLibro=CrudLibro()
         controlLibro.creacionLibro(nombreLibro,autorLibro,generoLibro,anioLibro,precioLibro,nombreBiblioteca)
 
     }
@@ -74,7 +75,7 @@ class MenuLibro {
         println("Buscar Libro...")
         println("Ingresa el nombre del libro: ")
         nombreLibro = readLine()?.toString() as String
-        val controlLibro=ControlLibro()
+        val controlLibro=CrudLibro()
         val lib=controlLibro.buscarLibro(nombreLibro)
         println(lib)
     }
@@ -84,14 +85,21 @@ class MenuLibro {
         var actualizacion: String
 
         println("Actualizar Libro...")
-        println("Nombre, Autor, Género, Año, Precio, Nombre de la biblioteca")
+
+        println("Para actualizar especifique el campo de la siguiente manera\n" +
+                "Nombre:\n"+
+                "Autor:\n"+
+                "Género:\n"+
+                "Año:\n"+
+                "Precio:\n"+
+                "Biblioteca:")
 
         println("Ingresa la actualización: ")
         actualizacion = readLine()?.toString() as String
 
         println("Ingresa el nombre del libro que deseas actualizar: ")
         nombreLibro = readLine()?.toString() as String
-        val controlLibro=ControlLibro()
+        val controlLibro=CrudLibro()
         controlLibro.modificarLibro(actualizacion,nombreLibro)
     }
 
@@ -101,12 +109,12 @@ class MenuLibro {
         println("Eliminar Libro...")
         println("Ingresa el nombre del libro que deseas eliminar: ")
         nombreLibro = readLine()?.toString() as String
-        val controlAlien=ControlLibro()
+        val controlAlien=CrudLibro()
         controlAlien.eliminarLibro(nombreLibro)
     }
 
     fun mostrarLibro(){
-        val controlLibro=ControlLibro()
+        val controlLibro=CrudLibro()
         controlLibro.leerDelArchivoLibros()
     }
 

@@ -1,10 +1,9 @@
-
 import java.io.File
 import java.nio.file.Files.write
 import java.nio.file.StandardOpenOption
 import java.io.BufferedReader
 
-class ControlBiblioteca {
+class CrudBblioteca {
 
 
 
@@ -16,11 +15,11 @@ class ControlBiblioteca {
             anioFundacion: Int
     ) {
         val biblioteca1 = Biblioteca(
-            nombreBiblioteca,
-            pais,
-            sede,
-            tipo,
-            anioFundacion
+                nombreBiblioteca,
+                pais,
+                sede,
+                tipo,
+                anioFundacion
         )
         //--> append
         val outString = biblioteca1.toString()
@@ -58,25 +57,25 @@ class ControlBiblioteca {
 
 
 
-    fun modificarBiblioteca(tipo: String, nombreBibl: String) {
+    fun modificarBiblioteca(tipo: String, nombreBiblioteca: String) {
         var vector1: MutableList<String> = mutableListOf()
         var vectorResult: List<String> = listOf("", "", "", "", "")
         val tipoDato = tipo.split(":")
         var cont = 0
         val indice: Int
         var lineaReEscrita: String
-        var lineasNuevasUni: ArrayList<String> = arrayListOf()
+        var lineaNuevoIngreso: ArrayList<String> = arrayListOf()
 
 
-        if (tipoDato[0] == "Nombre de la Biblioteca: ") {
+        if (tipoDato[0] == "Nombre") {
             indice = 0
-        } else if (tipoDato[0] == "País de la Biblioteca: ") {
+        } else if (tipoDato[0] == "Pais") {
             indice = 1
-        } else if (tipoDato[0] == "Sede de la Biblioteca: ") {
+        } else if (tipoDato[0] == "Sede") {
             indice = 2
-        } else if (tipoDato[0] == "Tipo de Biblioteca: ") {
+        } else if (tipoDato[0] == "Tipo") {
             indice = 3
-        } else if (tipoDato[0] == "Año de fundacion: ") { //elsee
+        } else if (tipoDato[0] == "Año") { //elsee
             indice = 4
         } else{
             indice = 5
@@ -88,7 +87,7 @@ class ControlBiblioteca {
 
         for (i: Int in lineas.indices) {
             vector1 = lineas[i].split(",") as MutableList<String>//reorna un ArrayList
-            if(vector1[0]==nombreBibl){
+            if(vector1[0]==nombreBiblioteca){
                 for (j: Int in vector1.indices) {
                     if (j==indice) {
                         vector1[j] = tipoDato[1]
@@ -104,28 +103,28 @@ class ControlBiblioteca {
                 //print(cont)
             }
             lineaReEscrita = vector1.joinToString(separator = ",")+"\n"
-            lineasNuevasUni.add(lineaReEscrita)
+            lineaNuevoIngreso.add(lineaReEscrita)
         }
         if(cont==lineas.size){
             println("Biblioteca no encontrada")
         }
-        for (iter: Int in lineasNuevasUni.indices) {
+        for (iter: Int in lineaNuevoIngreso.indices) {
             if(iter==0){
-                File("C:\\Users\\Jairo Chancusig\\Documents\\GitHub\\mov-chancusig-jairo\\Deber 2Final\\archivos\\biblioteca.txt").bufferedWriter().use { out -> out.write(lineasNuevasUni[0])}
+                File("C:\\Users\\Jairo Chancusig\\Documents\\GitHub\\mov-chancusig-jairo\\Deber 2Final\\archivos\\biblioteca.txt").bufferedWriter().use { out -> out.write(lineaNuevoIngreso[0])}
             }else{
                 val archivo = File("C:\\Users\\Jairo Chancusig\\Documents\\GitHub\\mov-chancusig-jairo\\Deber 2Final\\archivos\\biblioteca.txt")
-                write(archivo.toPath(), lineasNuevasUni[iter].toByteArray(), StandardOpenOption.APPEND)
+                write(archivo.toPath(), lineaNuevoIngreso[iter].toByteArray(), StandardOpenOption.APPEND)
             }
         }
     }
 
 
-    fun eliminarBiblioteca(nombreBibl: String){
+    fun eliminarBiblioteca(nombreBiblioteca: String){
 
         var vector1: MutableList<String> = mutableListOf()
         val vector2: MutableList<String> = mutableListOf("","","","","")
         var cont = 0
-        val indice: Int
+        //val indice: Int
         var lineaReEscrita: String
         var lineasNuevasUni: ArrayList<String> = arrayListOf()
 
@@ -136,7 +135,7 @@ class ControlBiblioteca {
 
         for (i: Int in lineas.indices) {
             vector1 = lineas[i].split(",") as MutableList<String>//reorna un ArrayList
-            if(vector1[0]==nombreBibl){
+            if(vector1[0]==nombreBiblioteca){
                 vector1=vector2
 
             } else {
@@ -162,8 +161,8 @@ class ControlBiblioteca {
             }
         }
 
-        val controlLibro =ControlLibro()
-        controlLibro.eliminarLibroBiblioteca(nombreBibl)
+        val controlLibro =CrudLibro()
+        controlLibro.eliminarLibroBiblioteca(nombreBiblioteca)
     }
 
 

@@ -1,3 +1,4 @@
+//MenuBiblioteca
 class MenuBiblioteca {
 
 
@@ -60,7 +61,7 @@ class MenuBiblioteca {
         println("Ingrese el año de fundación: ")
         anioFundacion = readLine()?.toInt() as Int
 
-        val controlU=ControlBiblioteca()
+        val controlU=CrudBblioteca()
         controlU.creacionBibliotecas(nombreBiblioteca,pais,sede,tipo,anioFundacion)
 
     }
@@ -70,25 +71,32 @@ class MenuBiblioteca {
         println("Busca la biblioteca")
         println("Ingresa el nombre de la biblioteca: ")
         nombreBiblioteca = readLine()?.toString() as String
-        val controlU=ControlBiblioteca()
+        val controlU=CrudBblioteca()
         val uni=controlU.buscarBiblioteca(nombreBiblioteca)
         println(uni)
     }
 
     fun modificarBiblioteca(){
-        var nombreBibl: String
+        var nombreBiblioteca: String
         var actualizar: String
         println("Actualizar Biblioteca")
-        println("Nombre,País,Sede,Tipo,Año De Fundación")
+        println("Para actualizar especifique el campo de la siguiente manera\n" +
+                "Nombre:\n"+
+                "Pais:\n"+
+                "Sede:\n"+
+                "Tipo:\n"+
+                "Año:")
+
 
 
         println("Ingresa la actualización: ")
         actualizar = readLine()?.toString() as String
 
+
         println("Ingresa el nombre de la Biblioteca que deseas actualizar: ")
-        nombreBibl = readLine()?.toString() as String
-        val controlU=ControlBiblioteca()
-        controlU.modificarBiblioteca(actualizar,nombreBibl)
+        nombreBiblioteca = readLine()?.toString() as String
+        val controlU=CrudBblioteca()
+        controlU.modificarBiblioteca(actualizar,nombreBiblioteca)
     }
 
 
@@ -97,12 +105,12 @@ class MenuBiblioteca {
         println("Eliminar Biblioteca")
         println("Ingresa el nombre de la biblioteca que deseas eliminar: ")
         nombreBiblioteca = readLine()?.toString() as String
-        val controlU=ControlBiblioteca()
+        val controlU=CrudBblioteca()
         controlU.eliminarBiblioteca(nombreBiblioteca)
     }
 
     fun mostrarBiblioteca(){
-        val controlU=ControlBiblioteca()
+        val controlU=CrudBblioteca()
         controlU.leerBiblioteca()
     }
 }

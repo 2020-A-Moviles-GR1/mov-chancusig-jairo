@@ -1,4 +1,3 @@
-//MenuUniversal
 class MenuPrincipal{
 
     fun Encabezado(){
