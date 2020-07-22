@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Moviles</string>
+    <string name="tv_numero">0</string>
+    <string name="anadir">Anadir</string>
 </resources>
