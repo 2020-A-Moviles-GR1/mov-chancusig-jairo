@@ -20,6 +20,14 @@ class MainActivity : AppCompatActivity() {
                 irCicloVida();
 
             }
+
+        btn_list_view
+            .setOnClickListener{boton ->
+
+                //this.irCicloVida()
+                irListView();
+
+            }
     }
 
     fun irCicloVida(){
@@ -31,5 +39,13 @@ class MainActivity : AppCompatActivity() {
         startActivity(intentExplicito)
     }
 
+    fun irListView(){
+        val intentExplicito = Intent(
+            this,
+            BListViewActivity::class.java       //nos dirige a la actividad CicloVida
+        )
+        //this.startActivity(intentExplicito)
+        startActivity(intentExplicito)
+    }
 
 }
