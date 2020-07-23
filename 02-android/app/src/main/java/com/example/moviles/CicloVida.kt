@@ -44,4 +44,27 @@ class CicloVida : AppCompatActivity() {
         super.onDestroy()
         Log.i("Activity","onDestroy")
     }
+
+    override fun onSaveInstanceState(
+        outState: Bundle
+    ) {
+        Log.i("Activity","onSaveInstanceState")
+        outState?.run{
+        putInt("valorActualGuardado",numeroActual)
+        }
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+
+        super.onRestoreInstanceState(savedInstanceState)
+        Log.i("Activity","onRestoreInstanceState")
+        val valorRecuperado = savedInstanceState
+        ?.getInt("valorActualGuardado")
+            if(valorRecuperado != null){
+                this.numeroActual = valorRecuperado
+                tv_numero.text = this.numeroActual.toString()
+            }
+
+    }
 }
