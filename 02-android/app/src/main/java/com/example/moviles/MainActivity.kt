@@ -1,8 +1,10 @@
 package com.example.moviles
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,26 +12,40 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.i("Activity","OnCreate")
+
+        btn_ciclo_vida
+            .setOnClickListener{boton ->
+
+                //this.irCicloVida()
+                irCicloVida();
+
+            }
+
+        btn_list_view
+            .setOnClickListener{boton ->
+
+                //this.irCicloVida()
+                irListView();
+
+            }
     }
 
-    override fun onStart{
-        super.onStart()
-        Log.i("Activity","onStart")
+    fun irCicloVida(){
+        val intentExplicito = Intent(
+            this,
+            CicloVida::class.java       //nos dirige a la actividad CicloVida
+        )
+            //this.startActivity(intentExplicito)
+        startActivity(intentExplicito)
     }
-    override fun onResume{
-        super.onResume()
-        Log.i("Activity","onResume")
+
+    fun irListView(){
+        val intentExplicito = Intent(
+            this,
+            BListViewActivity::class.java       //nos dirige a la actividad CicloVida
+        )
+        //this.startActivity(intentExplicito)
+        startActivity(intentExplicito)
     }
-    override fun onPause{
-        super.onPause()
-        Log.i("Activity","onPause")
-    }
-    override fun onStop{
-        super.onStop()
-        Log.i("Activity","onStop")
-    }
-    override fun onDestroy{
-        super.onDestroy()
-        Log.i("Activity","onDestroy")
-    }
+
 }

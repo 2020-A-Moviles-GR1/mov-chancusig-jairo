@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-kotlin/01-kotlin.iml" filepath="$PROJECT_DIR$/01-kotlin/01-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deber22/Deber22.iml" filepath="$PROJECT_DIR$/Deber22/Deber22.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mov-chancusig-jairo.iml" filepath="$PROJECT_DIR$/.idea/mov-chancusig-jairo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support.iml" filepath="$PROJECT_DIR$/support/support.iml" />
     </modules>
   </component>
 </project>
