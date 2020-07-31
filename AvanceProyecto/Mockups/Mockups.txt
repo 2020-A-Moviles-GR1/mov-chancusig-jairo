@@ -1,0 +1,7 @@
+A continuación, agrego el enlace para observar los mockups:
+
+Ejecución:
+https://www.figma.com/proto/VLlDJHzOvogcx0uAPIIjHP/MockupMoviles?node-id=7%3A33&scaling=scale-down
+
+Estructura: 
+https://www.figma.com/file/VLlDJHzOvogcx0uAPIIjHP/MockupMoviles?node-id=0%3A1
