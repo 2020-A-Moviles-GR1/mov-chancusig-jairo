@@ -19,11 +19,85 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42493d60-5c64-4519-8df7-d52a7ff85ebb" name="Default Changelist" comment="" />
+    <list default="true" id="42493d60-5c64-4519-8df7-d52a7ff85ebb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Examen/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/debug/app-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/debug/app-examen.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/debug/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/androidTest/java/com/example/dr/examen_primerbimestre/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ActualizarAutorActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ActualizarLibroActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/Autor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/BDAutores.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/BDLibros.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ConsultarAutorActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ConsultarLibroActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/IngresarAutorActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/IngresarLibroActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/Libro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/MenuActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/backgroundhorizontal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/backgroundvertical.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_actualizar_autor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_actualizar_libro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_consultar_autor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_consultar_libro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_ingresar_autor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_ingresar_libro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values-land/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/test/java/com/example/dr/examen_primerbimestre/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/01-kotlin/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,7 +110,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
   <component name="ProjectId" id="1eR6BY7rciulkFeZ8qmsL418PZc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mov-chancusig-jairo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mov-chancusig-jairo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,23 +144,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Deber 2Final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Examen" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\support\src" />
-      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\Deber_Crud\src" />
-      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\Deber2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\Deber 2Final\src" />
       <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\Deber 2Final" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo" />
+      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\support\src" />
+      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\Deber_Crud\src" />
+      <recent name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo\Deber2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="support" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -73,7 +187,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
       <module name="01-kotlin" />
       <option name="filePath" value="$PROJECT_DIR$/Deber2/src/Main.kts" />
       <option name="vmParameters" />
@@ -136,6 +250,26 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" id="Project" order="1" visible="true" weight="0.3296131" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
@@ -144,12 +278,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="0" key="#MainKt" timestamp="1594613250493">
