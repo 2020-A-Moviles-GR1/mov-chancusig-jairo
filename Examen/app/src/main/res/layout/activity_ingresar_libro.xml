@@ -8,64 +8,82 @@
         tools:context=".IngresarLibroActivity">
 
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
             android:id="@+id/txtNombreLibro"
-            app:layout_constraintStart_toStartOf="@+id/txtICBN"
-            app:layout_constraintEnd_toEndOf="@+id/txtICBN"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txtICBN"
-            android:hint="Nombre Libro"/>
-    <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:id="@+id/txtEditorial"
-            android:hint="Editorial"
             android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/txtfechaPublicacion"
-            app:layout_constraintEnd_toEndOf="@+id/txtfechaPublicacion"
-            app:layout_constraintStart_toStartOf="@+id/txtfechaPublicacion"/>
-    <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
             android:ems="10"
-            android:id="@+id/txtnumEdicion" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/txtEditorial"
-            app:layout_constraintStart_toStartOf="@+id/txtEditorial"
-            app:layout_constraintEnd_toEndOf="@+id/txtEditorial" android:hint="Edicion"/>
+            android:hint="Ingrese el nombre..."
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/txtICBN"
+            app:layout_constraintStart_toStartOf="@+id/txtICBN"
+            app:layout_constraintTop_toBottomOf="@+id/txtICBN" />
+
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="date"
-            android:ems="10"
             android:id="@+id/txtfechaPublicacion"
-            android:hint="Fecha Publicacion"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txtNumPaginas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Fecha de Publicación"
+            android:inputType="date"
+            app:layout_constraintEnd_toEndOf="@+id/txtNumPaginas"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/txtNumPaginas"
-            app:layout_constraintEnd_toEndOf="@+id/txtNumPaginas"/>
+            app:layout_constraintTop_toBottomOf="@+id/txtNumPaginas" />
+
     <EditText
+            android:id="@+id/txtEditorial"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
+            android:layout_marginTop="8dp"
             android:ems="10"
+            android:hint="Editorial"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/txtfechaPublicacion"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtfechaPublicacion"
+            app:layout_constraintTop_toBottomOf="@+id/txtfechaPublicacion" />
+
+    <EditText
+            android:id="@+id/txtnumEdicion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Edición"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/txtEditorial"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtEditorial"
+            app:layout_constraintTop_toBottomOf="@+id/txtEditorial" />
+
+    <EditText
             android:id="@+id/txtNumPaginas"
-            android:hint="Num Paginas" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/txtNombreLibro"
+            android:layout_width="251dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Ingrese el número de páginas"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/txtNombreLibro"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/txtNombreLibro"
-            app:layout_constraintEnd_toEndOf="@+id/txtNombreLibro"/>
+            app:layout_constraintTop_toBottomOf="@+id/txtNombreLibro" />
+
     <EditText
+            android:id="@+id/txtICBN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginEnd="8dp"
             android:ems="10"
-            android:id="@+id/txtICBN" android:layout_marginTop="124dp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:hint="ICBN"/>
+            android:hint="ISBN"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     <Button
             android:text="Guardar"
             android:layout_width="wrap_content"
