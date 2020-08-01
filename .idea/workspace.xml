@@ -20,74 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42493d60-5c64-4519-8df7-d52a7ff85ebb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examen/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/debug/app-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/debug/app-examen.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/debug/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/androidTest/java/com/example/dr/examen_primerbimestre/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/ic_launcher-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ActualizarAutorActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ActualizarLibroActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/Autor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/BDAutores.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/BDLibros.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ConsultarAutorActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/ConsultarLibroActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/IngresarAutorActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/IngresarLibroActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/Libro.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/java/com/example/dr/examen_primerbimestre/MenuActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/backgroundhorizontal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/backgroundvertical.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_actualizar_autor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_actualizar_libro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_consultar_autor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_consultar_libro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_ingresar_autor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_ingresar_libro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values-land/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/app/src/test/java/com/example/dr/examen_primerbimestre/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_consultar_biblioteca.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/app/src/main/res/layout/activity_ingresar_biblioteca.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/01-kotlin/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,6 +56,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="mov-chancusig-jairo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Jairo Chancusig\Documents\GitHub\mov-chancusig-jairo" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +79,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -147,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Examen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Deber 2Final" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
