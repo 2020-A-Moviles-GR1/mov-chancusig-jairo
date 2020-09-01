@@ -13,7 +13,8 @@ class BListViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_blist_view)
-        val listaEntrenadores = arrayListOf<Entrenador>()
+        val listaEntrenadores: ArrayList<Entrenador> = arrayListOf<Entrenador>()
+
         listaEntrenadores.add(Entrenador("Jairo","Chancusig"))
         listaEntrenadores.add(Entrenador("David","Perez"))
         listaEntrenadores.add(Entrenador("Mario","Espin"))
@@ -21,7 +22,7 @@ class BListViewActivity : AppCompatActivity() {
         listaEntrenadores.add(Entrenador("Sebas","Pineda"))
         listaEntrenadores.add(Entrenador("Fabiola","Batallas"))
 
-        val adapator = ArrayAdapter(
+        val adapator: ArrayAdapter<Entrenador> = ArrayAdapter(
             this, //Contexto
             android.R.layout.simple_list_item_1, //Nombre Layout
             listaEntrenadores //Lista
@@ -36,7 +37,24 @@ class BListViewActivity : AppCompatActivity() {
         }
 
 
+        btn_anadir_entrenador
+            .setOnClickListener {
+                anadirEntrenador(
+                    adapator,
+                    listaEntrenadores)
+
+            }
+
     }
 
+    fun anadirEntrenador(
+        adapator: ArrayAdapter<Entrenador>,
+        listaEntrenador: ArrayList<Entrenador>
+    ){
+        listaEntrenador.add(
+            Entrenador("Fabiola","Batallas")
+        )
+        adapator.notifyDataSetChanged()
+    }
 
 }
