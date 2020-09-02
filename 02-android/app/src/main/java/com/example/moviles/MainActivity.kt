@@ -51,7 +51,19 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 enviarIntentConRespuestaPropia()
             }
+        btn_http
+            .setOnClickListener {
+                abrirActividadHttp()
+            }
 
+    }
+
+    fun abrirActividadHttp(){
+        val intentExplicito = Intent(
+            this,
+            HttpActivity::class.java       //nos dirige a la actividad CicloVida
+        )
+        startActivity(intentExplicito)
     }
 
     fun enviarIntentConRespuestaPropia(){
