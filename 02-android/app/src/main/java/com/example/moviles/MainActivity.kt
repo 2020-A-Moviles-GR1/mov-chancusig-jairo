@@ -55,7 +55,18 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 abrirActividadHttp()
             }
+        btn_recycler
+            .setOnClickListener {
+                abrirRecyclerViewActvity()
+            }
+    }
 
+    fun abrirRecyclerViewActvity(){
+        val intentExplicito = Intent(
+            this,
+            RecyclerVIewActivity::class.java       //nos dirige a la actividad CicloVida
+        )
+        startActivity(intentExplicito)
     }
 
     fun abrirActividadHttp(){
