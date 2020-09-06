@@ -4,25 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BListViewActivity">
+    tools:context=".HttpActivity">
 
-    <ListView
-        android:id="@+id/lv_numeros"
-        android:layout_width="393dp"
-        android:layout_height="452dp"
-        android:layout_marginTop="120dp"
+    <Button
+        android:id="@+id/btn_obtener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:text="Obtener"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_anadir_entrenador"
+        android:id="@+id/btn_crear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="@string/anadir"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="148dp"
+        android:text="Crear"
+        app:layout_constraintEnd_toEndOf="@+id/btn_obtener"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_obtener"
+        app:layout_constraintTop_toBottomOf="@+id/btn_obtener" />
 </androidx.constraintlayout.widget.ConstraintLayout>
