@@ -6,6 +6,27 @@ import com.beust.klaxon.JsonValue
 import com.beust.klaxon.Klaxon
 import java.util.*
 
+class PokemonHttp(
+
+    var createdAt: Long,
+    var updatedAt: Long,
+    var id: Int,
+    var nombre: String,
+    var usuario: Int
+){
+    var fechaCreacion: Date
+    var fechaActualizacion: Date
+
+    init{
+        fechaCreacion = Date(createdAt)
+        fechaActualizacion= Date(updatedAt)
+    }
+
+}
+
+
+//Klaxon
+/*
 class PokemonHttp (
     val createdAt: Long,
     val updatedAt:Long,
@@ -76,3 +97,5 @@ class PokemonHttp (
 
 
 }
+
+ */
