@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:orientation="vertical">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="#00FDFDFD" android:id="@+id/txv_id_bli"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/txv_info_pac" android:textColor="#000000"
+            android:textSize="20sp" android:textAlignment="center"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView12" android:textColor="#00FDFDFD"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/lay_biblioteca">
+
+        <LinearLayout
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Nombre:"
+                    android:textColor="#D5030303" />
+
+            <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Ciudad:"
+                    android:textColor="#D5030303" />
+
+            <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Fecha de Fundación:"
+                    android:textColor="#D5030303" />
+
+            <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Número de Sedes:"
+                    android:textColor="#D5030303" />
+
+            <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Pública:"
+                    android:textColor="#D5030303" />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/txv_nombre_bli"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            <TextView
+                    android:id="@+id/txv_ciudad_bli"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            <TextView
+                    android:id="@+id/txv_fecha_fundacion_bli"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            <TextView
+                    android:id="@+id/txv_numero_sedes_bli"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            <TextView
+                    android:id="@+id/txv_publica_bli"
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="@string/btn_eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/btn_eliminar_bli" android:layout_weight="1"/>
+        <Button
+                android:text="@string/btn_actualizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/btn_actualizar_bli" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
