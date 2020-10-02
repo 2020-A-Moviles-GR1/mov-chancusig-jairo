@@ -59,6 +59,18 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 abrirRecyclerViewActvity()
             }
+        btn_mapa
+            .setOnClickListener {
+                abrirMapaActivity()
+            }
+    }
+
+    fun abrirMapaActivity(){
+        val intentExplicito = Intent(
+            this,
+            MapsActivity::class.java       //nos dirige a la actividad CicloVida
+        )
+        startActivity(intentExplicito)
     }
 
     fun abrirRecyclerViewActvity(){

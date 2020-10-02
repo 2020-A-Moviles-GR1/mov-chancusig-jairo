@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">Examen2B</string>
+    <string name="title_activity_pacientes" translatable="false">Pacientes</string>
+    <string name="title_activity_gestion" translatable="false">Gestión de pacientes</string>
+    <string name="txt_usuario" translatable="false">Nombre</string>
+    <string name="btn_entrar" translatable="false">Entrar</string>
+    <string name="btn_ges_pac" translatable="false">Gestionar pacientes</string>
+    <string name="btn_crear_pac" translatable="false">Crear paciente</string>
+    <string name="txt_nom_pac" translatable="false">Nombres</string>
+    <string name="txt_ape_pac" translatable="false">Apellidos</string>
+    <string name="fec_nac_pac" translatable="false">Fecha de nacimiento</string>
+    <string name="hijos_pac" translatable="false">Numero de hijos</string>
+    <string name="seguro_pac" translatable="false">Seguro</string>
+    <string name="btn_insertar" translatable="false">Crear</string>
+    <string name="btn_eliminar" translatable="false">Eliminar</string>
+    <string name="btn_actualizar" translatable="false">Actualizar</string>
+    <string name="btn_ges_med" translatable="false">Gestionar medicamento</string>
+    <string name="btn_crear_med" translatable="false">Crear medicamento</string>
+    <string name="txt_nom_med" translatable="false">Nombre</string>
+    <string name="txt_comp_med" translatable="false">Composicion</string>
+    <string name="txt_uso_med" translatable="false">Usado para</string>
+    <string name="fec_cad_med" translatable="false">Fecha de caducidad</string>
+    <string name="txt_num_pas_med" translatable="false">Numero de pastillas</string>
+    <string name="txt_gra_med" translatable="false">Gramos a ingerir</string>
+    <string name="btn_mapa" translatable="false">Mapa</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="longitud" translatable="false">Longitud</string>
+    <string name="latitud" translatable="false">Latitud</string>
+</resources>
+
